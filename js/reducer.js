@@ -11,7 +11,8 @@ function reducer(state, action){
 }
 
 function dispatch(action){
-  state = reducer(state, action)
+  state = reducer(state, action);
+  render()
 }
 
 function render(){
